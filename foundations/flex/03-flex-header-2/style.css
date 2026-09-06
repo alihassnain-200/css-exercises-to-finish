@@ -12,6 +12,20 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header .logo-link, .notif-profile{
+  display: flex;
+   align-items: center;
+}
+
+.notif-profile{
+  
+   gap: 0px 20px;
 }
 
 .profile-image {
@@ -27,6 +41,9 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+
+  display: flex;
+  align-items: center;
 }
 
 button {
@@ -41,8 +58,12 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+
 }
 
 ul {
   list-style-type: none;
+  
+  display: flex;
+  gap: 0px 15px;
 }
