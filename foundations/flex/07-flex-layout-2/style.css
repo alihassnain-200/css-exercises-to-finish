@@ -10,6 +10,10 @@ body {
   color: white;
 }
 
+.cardbar-con{
+  display: flex;
+}
+
 .footer {
   height: 72px;
   background: #eee;
