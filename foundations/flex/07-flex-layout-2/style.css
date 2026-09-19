@@ -30,7 +30,7 @@ body {
 }
 
 .cardbar-con {
-
+ display: flex;
 }
 
 .card {
