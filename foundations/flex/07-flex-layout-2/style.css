@@ -8,18 +8,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-}
-
-.cardbar-con{
+  font-size: 22px;
+  font-weight: bold;
   display: flex;
-}
-
-.sidebar {
-
-}
-
-.cards {
-  
+  align-items: center;
+  padding-left: 12px;
 }
 
 .footer {
