@@ -23,23 +23,40 @@ body {
   color: darkmagenta;
 }
 
-.sidebar {
-  width: 300px;
-  background: royalblue;
-  box-sizing: border-box;
-}
-
 .cardbar-con {
  display: flex;
  flex-grow: 2;
 }
 
+.sidebar {
+  width: 300px;
+  background: royalblue;
+  box-sizing: border-box;
+  flex: 1 0 250px;
+}
+
+ul, a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 0;
+}
+
+li {
+  padding: 5px 15px;
+}
+
 .cards {
   display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 20px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 10px 10px 150px;
+  flex: 1 1 250px;
 }
